@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>STT Whisper - Upload</title>
+</head>
+<body>
+    <h2>Upload MP3 File for Transcription</h2>
+    <form method="POST" action="/transcribe" enctype="multipart/form-data">
+        <input type="file" name="audio_file" accept=".mp3" required>
+        <br><br>
+        <button type="submit">Transcribe</button>
+    </form>
+</body>
+</html>
